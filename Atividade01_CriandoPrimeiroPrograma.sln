@@ -1,25 +1,14 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.11.35327.3
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atividade01_CriandoPrimeiroPrograma", "Atividade01_CriandoPrimeiroPrograma\Atividade01_CriandoPrimeiroPrograma.csproj", "{553044BD-7548-467F-AD35-204FFE10D9D4}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{553044BD-7548-467F-AD35-204FFE10D9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{553044BD-7548-467F-AD35-204FFE10D9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{553044BD-7548-467F-AD35-204FFE10D9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{553044BD-7548-467F-AD35-204FFE10D9D4}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9B287850-DECE-4A60-9714-C98016152771}
-	EndGlobalSection
-EndGlobal
+// Atividade 01 - Criando o Primeiro Programa
+// Exercício 01: Criar uma variável chamada curso, e guarde nela o nome do curso estudado.
+string curso = "C#: criando sua primeira aplicação";
+
+// Exercício 02: Mostrar o conteúdo da variável curso no console.
+Console.WriteLine(curso);
+
+// Exercício 03: Criar uma variável chamada nome e outra chamada sobrenome e guardar nelas seu nome e sobrenome.
+string nome = "César";
+string sobrenome = "Nagy";
+
+// Exercício 04: Mostrar na tela o nome dos instrutores do curso.
+Console.WriteLine("Daniel Portugal e Gui Lima");
